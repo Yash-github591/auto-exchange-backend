@@ -12,7 +12,7 @@ const EmailController = require("./controllers/EmailController");
 
 const port = process.env.PORT || 4000;
 
-client_url = process.env.CLIENT_URL || "http://localhost:3000";
+client_url = process.env.CLIENT_URL;
 
 // connect mongoose to mongodb
 mongoose
