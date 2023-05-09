@@ -27,7 +27,7 @@ mongoose
     console.log("Error connecting to MongoDB", err);
   });
 
-// app.use(cors({ credentials: true, origin: client_url }));
+app.use(cors({ credentials: true, origin: client_url }));
 
 app.use(express.json());
 app.use(cookieParser());
